@@ -1,0 +1,6 @@
+framework module Pods_FireBaseandGeoFire {
+  umbrella header "Pods-FireBaseandGeoFire-umbrella.h"
+
+  export *
+  module * { export * }
+}

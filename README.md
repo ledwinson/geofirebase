@@ -23,9 +23,13 @@ select FirebaseDatabase.framework from pods and link it to Geofire as shown here
 1. I used cocopods here and the pod file contains
 
 pod 'Firebase', '~>4.0'
+
 pod 'Firebase/Auth'
+
 pod 'Firebase/Database'
+
 pod 'Firebase/Storage'
+
 pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
 
 

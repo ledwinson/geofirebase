@@ -19,6 +19,17 @@ select FirebaseDatabase.framework from pods and link it to Geofire as shown here
 
 8. After executing the project and everything goes well you can see the location stored in firebase for hthe test user logged in.
 
+# Other Info
+1. I used cocopods here and the pod file contains
+
+pod 'Firebase', '~>4.0'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'GeoFire', :git => 'https://github.com/firebase/geofire-objc.git'
+
+
+
 
 
 

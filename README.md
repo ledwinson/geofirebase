@@ -9,8 +9,8 @@ Firebase4 and Geofire for storing user location sample IOS swift
 2. Create a project in Firebase and download  GoogleService-Info.plist
 3. Go to Authentication and enable email/password login
 4. Create a test user test@gmail.com/password 
-5. copy the downloaded GoogleService-Info.plist top your project
-6. Change the Build Identifier in xcode as thew same value used in Firebase console.
+5. copy the downloaded GoogleService-Info.plist to your project
+6. Change the Build Identifier in xcode as the same value used in Firebase console.
 
 # compile and run
 
@@ -20,7 +20,7 @@ select FirebaseDatabase.framework from pods and link it to Geofire as shown here
 8. After executing the project and everything goes well you can see the location stored in firebase for hthe test user logged in.
 
 # Other Info
-1. I used cocopods here and the pod file contains
+I used cocopods here and the pod file contains
 
 pod 'Firebase', '~>4.0'
 

@@ -9,8 +9,10 @@ Firebase4 and Geofire for storing user location sample IOS swift
 2. Create a project in Firebase and download  GoogleService-Info.plist
 3. Go to Authentication and enable email/password login
 4. Create a test user test@gmail.com/password 
-5. copy the downloaded GoogleService-Info.plist to your project
-6. Change the Build Identifier in xcode as the same value used in Firebase console.
+5. Go to Realtime Database -> select Rules and set it to true
+6. copy the downloaded GoogleService-Info.plist to your project
+7. Change the Build Identifier in xcode as the same value used in Firebase console.
+
 
 # compile and run
 
